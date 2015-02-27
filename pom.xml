@@ -59,7 +59,7 @@
 			</dependency>
 		</dependencies>
 		<build>
-		
+		<plugins>
 	<plugin>
 			<groupId>org.apache.tomcat.maven</groupId>
 			<artifactId>tomcat7-maven-plugin</artifactId>
@@ -144,7 +144,7 @@
 		</plugin>
 			
 		
-		</build>
+		
 		<plugin>
     <groupId>org.jacoco</groupId>
     <artifactId>jacoco-maven-plugin</artifactId>
@@ -159,5 +159,6 @@
 		</execution>
     </executions>
 </plugin>
-	<plugins>
+	</plugins>
+	</build>
 </project>
