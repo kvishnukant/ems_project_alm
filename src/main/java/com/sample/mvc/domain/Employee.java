@@ -3,6 +3,8 @@ package com.sample.mvc.domain;
 public class Employee {
 
 	private String name;
+	
+	
 	private int code;
 	private String city; 
 	
