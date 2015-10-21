@@ -33,6 +33,8 @@ public class EmployeeDeleteControllerTest {
 	Employee emp = new Employee();
 	Employee employee = new Employee();
 	private HttpServletRequest HttpServletRequest;
+	
+	
 	private HttpServletResponse HttpServletResponse;
 	List<Employee> employeeList = new ArrayList<Employee>();
 	EmployeeService empService = new EmployeeService();
