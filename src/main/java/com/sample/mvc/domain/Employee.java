@@ -6,6 +6,8 @@ public class Employee {
 	
 	
 	private int code;
+	
+	
 	private String city; 
 	
 	public String getName() {
